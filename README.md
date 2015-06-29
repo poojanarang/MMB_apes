@@ -8,10 +8,10 @@ CI can be calculated in two steps:
 This script creates 1000 bootstrap files for autosomes and 1000 bootstrap files for X chromosome
 
 2) Calculate confidence intervals: CalculateMean_CI.R 
- 	This script calculates the following:
-	(i)   Mean and 95% confidence intervals for X and autosomal Divergence for each bin 
-	(ii)  Mean and 95% confidence intervals for X to autosomal divergence ratios, both uncorrected and corrected for ancestral polymorphism, for each bin 
-	(iii) Mean and 95% confidence intervals for Alpha, both uncorrected and corrected for ancestral polymorphism, for each bin
+This script calculates the following:
+(i)   Mean and 95% confidence intervals for X and autosomal Divergence for each bin 
+(ii)  Mean and 95% confidence intervals for X to autosomal divergence ratios, both uncorrected and corrected for ancestral polymorphism, for each bin 
+(iii) Mean and 95% confidence intervals for Alpha, both uncorrected and corrected for ancestral polymorphism, for each bin
 
 Defined Bins:
 Increasing genetic distances from the nearest genes (in centiMorgans): ([0-0.05], [0.05-0.1], [0.1-0.2], [0.2-0.4], [0.4-0.8], [0.8-2.0]). 

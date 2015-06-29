@@ -7,7 +7,7 @@ CI can be calculated in two steps:
 
 This script creates 1000 bootstrap files for autosomes and 1000 bootstrap files for X chromosome
 
-2) Calculate confidence intervals: CalculateMean_CI.R 
+2) Calculate Mean and Confidence Intervals: CalculateMean_CI.R 
 
 This script calculates the following:
 
